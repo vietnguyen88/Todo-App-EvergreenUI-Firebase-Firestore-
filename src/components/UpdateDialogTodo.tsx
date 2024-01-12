@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 
 import {
   Pane,
@@ -13,7 +13,7 @@ import { TodoContext } from '../context/TodoContext';
 
 function UpdateDialogTodo({ todo }) {
   const { updateTodo } = useContext(TodoContext);
-  const [isShown, setIsShown] = React.useState(false);
+  const [isShown, setIsShown] = useState(false);
   const [title, setTitle] = useState('');
 
   const handleUpdate = (close: Function) => {
