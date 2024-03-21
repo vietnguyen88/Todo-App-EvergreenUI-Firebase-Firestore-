@@ -5,7 +5,7 @@ import TodoInput from './components/TodoInput';
 
 export const App = () => {
   return (
-    <div>
+    <div  style={{maxWidth: '600px'}}>
       <h2>Todo - Evergreen UI - Firebase</h2>
       <TodoInput />
       <TodosList />
